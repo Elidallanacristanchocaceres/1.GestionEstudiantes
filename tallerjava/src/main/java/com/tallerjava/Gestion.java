@@ -21,6 +21,11 @@ public class Gestion {
             estudiantes.add(nombre);
         }
 
+        Collections.sort(estudiantes);
+        System.out.println("\nLista de estudiantes ordenada alfabéticamente:");
+        for (String estudiante : estudiantes) {
+            System.out.println(estudiante);
+        }
 
         
       }
