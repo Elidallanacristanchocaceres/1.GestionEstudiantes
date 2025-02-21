@@ -27,6 +27,17 @@ public class Gestion {
             System.out.println(estudiante);
         }
 
+        System.out.print("\nIngrese el nombre del estudiante que desea buscar: ");
+        String buscar = scanner.nextLine();
+        
+        if (estudiantes.contains(buscar)) {
+            System.out.println("El estudiante " + buscar + " está en la lista.");
+        } else {
+            System.out.println("El estudiante " + buscar + " no está en la lista.");
+        }
+        
+        scanner.close();
+
         
       }
 }
