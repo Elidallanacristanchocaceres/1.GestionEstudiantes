@@ -56,8 +56,6 @@ public class RegistroNotas {
         }
 
         System.out.println("\nEl estudiante con mejor rendimiento es " + mejorEstudiante + " con una nota de " + mejorNota);
-
-
         scanner.close();
         
     }
